@@ -27,6 +27,6 @@ WinnnerModal.propTypes = {
   winner: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.bool,
-  ]).isRequired,
-  resetGame: PropTypes.func.isRequired,
+  ]),
+  resetGame: PropTypes.func,
 } 
